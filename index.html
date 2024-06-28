@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/84cfa47576.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="voice_assistant.css">
+    <link rel="shortcut icon" href="image/virtual-assistant.png" type="image/x-icon">
+    <title>Voice Assistant</title>
+</head>
+
+<body>
+        <video src="Songs/circuit_-_27725 (1080p).mp4" loop autoplay muted id="video1"></video>
+
+<div id="main">
+
+    <div class="as">
+        <div id="mainpage">
+        <textarea name="text" id="text" cols="40" rows="10" placeholder="say something..." onclick="speech()"></textarea>
+         <div class="voice">
+           <div class="mic" id="on" onclick="Both()"><i class="fa-solid fa-microphone"></i></div>  
+           <div class="mic" id="off"><i class="fa-solid fa-microphone-slash"></i></div> 
+        </div>
+    </div>
+   
+    </div>
+</div>    
+
+</body>
+<script src="voice_assistant.js"></script>
+</html>

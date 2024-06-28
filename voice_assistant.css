@@ -1,0 +1,65 @@
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+}
+*{
+ 
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+video{
+width:100vw;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+
+}
+#video1{
+display: block;
+}
+/* #video2{
+    display: none;
+    } */
+.voice{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.mic{
+    border: 2px solid rgb(22, 15, 156);
+    padding:5px;
+    margin:10px;
+    color:red;
+    box-shadow: 12px 12px 12px 1px rgb(7, 4, 83);
+}
+.mic:hover{
+    color:white;
+    border: 2px solid red;
+    cursor: pointer;
+
+}
+#on{
+    padding:5px 10px;
+}
+#text{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px solid rgb(21, 8, 104);
+    box-shadow: 12px 12px 12px 1px rgb(7, 4, 83);
+    color:white;
+}
+/* #play,#pause{
+    padding:12px;
+    display: none;
+    box-shadow: 12px 12px 12px 1px rgb(7, 4, 83);
+
+} */
